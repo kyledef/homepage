@@ -1,0 +1,38 @@
+
+body
+{
+	background: url("/images/small_steps.png") repeat;
+}
+
+.page_centered
+{
+	width: 500px;
+	height: 200px;
+	/*margin: 0 auto;*/
+	text-align: center;
+}
+
+.page_centered .profile_img
+{
+	width: 30%;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px #888888;
+    margin-bottom: 15px;
+}
+.info_links
+{
+	list-style: none;
+	width: 100%;
+	margin: auto;
+}
+
+.info_links li
+{
+	float: left;
+}
+
+.info_links a
+{
+	display: block;
+	padding-left: 50px;
+}
